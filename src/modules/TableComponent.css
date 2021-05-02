@@ -1,0 +1,82 @@
+#title {
+    text-align: center;
+    font-family: arial, sans-serif;
+  }
+  
+  #students {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+  }
+  
+  #students td,
+  #students th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #students tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #students tr:hover {
+    background-color: #ddd;
+  }
+  
+  #students th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .buy {
+    background-color: #4caf50;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .sell {
+    background-color: #ff4d4d;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .center {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .left {
+    text-align: left;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .flex-between {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flex-between > div {
+    font-weight: bold;
+    margin: 0 30px 10px 30px;
+    font-size: 1.5rem;
+  }
+  
+  .flex-center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .flex-center > div {
+    font-weight: bold;
+    margin: 0 30px 10px 30px;
+    font-size: 1.5rem;
+  }
+  
